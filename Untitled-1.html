@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía para hacer pública tu página web y personalizar el URL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #444;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Guía para hacer pública tu página web y personalizar el URL</h1>
+
+    <h2>Pregunta:</h2>
+    <p><strong>Usuario:</strong> ¿Puedo editar el URL?</p>
+
+    <h2>Respuesta:</h2>
+    <p><strong>ChatGPT:</strong> Sí, puedes personalizar el URL en varias plataformas dependiendo de cómo decidas alojar tu sitio web. A continuación te explico las opciones para editar el URL en las plataformas más comunes:</p>
+
+    <h3>1. GitHub Pages</h3>
+    <p>En GitHub Pages, el URL por defecto será algo como <code>https://nombreusuario.github.io</code>, pero puedes personalizar el URL siguiendo estas opciones:</p>
+
+    <h4>Opción 1: Personalizar la URL del repositorio</h4>
+    <p>Si creas un repositorio con un nombre diferente (que no sea <code>nombreusuario.github.io</code>), el URL será algo así como <code>https://nombreusuario.github.io/nombreproyecto</code>.</p>
+
+    <h4>Opción 2: Usar un dominio personalizado</h4>
+    <p>Puedes conectar un dominio que hayas comprado (como <code>www.mipagina.com</code>) a tu proyecto de GitHub Pages. Aquí están los pasos:</p>
+
+    <ol>
+        <li>Compra un dominio a través de proveedores como <strong>Namecheap</strong> o <strong>Google Domains</strong>.</li>
+        <li>Configura el DNS de tu dominio apuntando a GitHub Pages con los registros <strong>A</strong> o <strong>CNAME</strong>:</li>
+        <ul>
+            <li>IP de GitHub Pages: <code>185.199.108.153</code>, <code>185.199.109.153</code>, <code>185.199.110.153</code>, <code>185.199.111.153</code></li>
+        </ul>
+        <li>Crea un archivo <strong>CNAME</strong> en tu repositorio con el nombre de dominio (ej: <code>www.mipagina.com</code>).</li>
+    </ol>
+
+    <h3>2. Netlify</h3>
+    <p>En Netlify, puedes personalizar fácilmente la URL incluso si no compras un dominio:</p>
+
+    <h4>Opción 1: Personalizar el subdominio gratuito</h4>
+    <p>Netlify te asigna un subdominio como <code>https://nombre-sitio.netlify.app</code>. Puedes cambiar ese nombre en la configuración del sitio para que sea algo más personalizado, como <code>mi-sitio-personalizado.netlify.app</code>.</p>
+
+    <h4>Opción 2: Usar un dominio personalizado</h4>
+    <p>Al igual que con GitHub Pages, puedes conectar un dominio personalizado comprando uno y configurando el DNS en Netlify.</p>
+
+    <h3>3. Hosting Tradicional</h3>
+    <p>Si usas un servicio de hosting tradicional (como <strong>Hostinger</strong>, <strong>Bluehost</strong>), tienes la libertad de usar el dominio que quieras apuntando tu dominio al servidor del hosting.</p>
+
+    <h3>Resumen:</h3>
+    <ul>
+        <li><strong>GitHub Pages</strong>: Cambia el subdominio o conecta un dominio personalizado.</li>
+        <li><strong>Netlify</strong>: Personaliza el subdominio o usa un dominio personalizado.</li>
+        <li><strong>Hosting Tradicional</strong>: Total libertad para usar cualquier dominio que elijas.</li>
+    </ul>
+</div>
+
+<footer>
+    <p>© 2024 Guía para hacer pública tu página web</p>
+</footer>
+
+</body>
+</html>
